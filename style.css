@@ -1,0 +1,65 @@
+.atas {
+color: #FFFFFF;
+padding: 8px;
+width: 100%;
+background-color: #628AA0;
+}
+img {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+h3 {
+margin-top: 20px;
+font-family: arial;
+color: #4E3131;
+}
+
+body {
+font-family: arial;
+margin: 0;
+background-color: #EBECF1;
+}
+
+.kotak {
+box-sizing: border-box;
+border: none;
+border-radius: 85px;
+background-color: #D1E2EC;
+margin-top: 30px;
+margin-left: 250px;
+display: inline-block;
+height:400px;
+width: 1000px;
+}
+
+input[type=text] {
+border: none;
+border-radius: 15px;
+background-color: #628AA0;
+width: 767px;
+height: 50px;
+margin-top: 13px;
+}
+
+input::placeholder {
+    color: #FFFFFF;
+    position: relative;
+}
+
+input[type=submit] {
+border: none;
+border-radius: 15px;
+width: 300px;
+height: 40px;
+background-color: #628AA0;
+margin-top: 30px;
+}
+
+input[type=submit]:hover {
+background-color: aliceblue;
+}
+
